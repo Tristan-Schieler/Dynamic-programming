@@ -34,6 +34,22 @@ The data can be changed in this program to solve different sets of numbers
     * array variable is set of numbers used to calculate a sum
         * `variables must be kept in accending order`
     * value is the number you would like to sum the parts of data up to
+    
+### C++ Version
+
+#### Input
+`Input.txt`
+The ﬁrst line of the ﬁle has a positive integer x specifying the number of problem instances. The rest of the ﬁle contains x pairs of lines. The ﬁrst line of each pair contains two positive integers, t (the target value) and n (the size of data), in that order. The next line will contain the npositive integers, representing the values of data in increasing sorted order.
+
+#### Output
+`Output.txt`
+For each problem, the program outputs the number of sums when order matters, followed by the number of sums when order doesn’t matter.
+ 
+#### Compile
+`g++ Count.cpp`
+
+#### Run
+`./a.exe`
 
 ## Versioning
 The version of this program is purely for testing and education purposes. The maker reserves the right to make updates and bugfixes.
